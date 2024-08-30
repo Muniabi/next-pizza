@@ -1,6 +1,7 @@
+"use client";
+
 import React from "react";
 import { FilterChecboxProps, FilterCheckbox } from "./filter-checkbox";
-import { Title } from "./title";
 import { Input } from "../ui";
 
 type Item = FilterChecboxProps;

@@ -96,9 +96,6 @@ export const Filters: React.FC<Props> = ({ className }) => {
                         value: "6",
                     },
                 ]}
-                onChange={function (value: string[]): void {
-                    throw new Error("Function not implemented.");
-                }}
             />
         </div>
     );

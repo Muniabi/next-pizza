@@ -28,7 +28,9 @@ export default function Home() {
                         <Filters />
                     </div>
                     {/* {Список товаров} */}
-                    <div className="">Tovary</div>
+                    <div className="">
+                        TovaryTovaryTovaryTovaryTovaryTovaryTovaryTovaryTovaryTovaryTovaryTovaryTovaryTovary
+                    </div>
                 </div>
             </Container>
         </>
