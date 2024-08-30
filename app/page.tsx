@@ -1,4 +1,10 @@
-import { Container, SortPopup, Title, TopBar } from "@/components/shared";
+import {
+    Container,
+    Filters,
+    SortPopup,
+    Title,
+    TopBar,
+} from "@/components/shared";
 import { Categories } from "@/components/shared";
 import { Button } from "@/components/ui/button";
 import { Filter } from "lucide-react";
@@ -15,13 +21,15 @@ export default function Home() {
             </Container>
             <TopBar />
 
-            <Container className="pb-14">
+            <Container className="mt-10 pb-14">
                 {/* {Фильтрация} */}
                 <div className="flex gap-[60px]">
-                    <div className="w-[250px]">{/* <Filters /> */}</div>
+                    <div className="w-[250px]">
+                        <Filters />
+                    </div>
+                    {/* {Список товаров} */}
+                    <div className="">Tovary</div>
                 </div>
-
-                {/* {Список товаров} */}
             </Container>
         </>
     );
